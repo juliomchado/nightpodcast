@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color: #1C0030;
+    --text-color: #FFFF;
+    --card-color: linear-gradient(90deg, rgba(53,49,169,1) 0%, rgba(67,3,164,1) 100%);;
+    --free-button-color: linear-gradient(90deg, rgba(193,87,171,1) 0%, rgba(251,133,161,1) 100%);
+}
+
+
+
+html {
+    font-size: 62.5%; // 1rem = 10px
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, p{
+    color: var(--text-color);
+}
+
+
+body {
+    background-color: var(--background-color);
+}
+
+body,
+input,
+textarea,
+select,
+button {
+    font: 400 1.6rem 'Source Sans Pro', sans-serif;;
+}
+
+button {
+    cursor: pointer;
+    outline: transparent;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
