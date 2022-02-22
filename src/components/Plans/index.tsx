@@ -17,7 +17,6 @@ export function Plans({ title, description, value }: PlansProps) {
                 <p>{description}</p>
                 <span>{value}$/mo</span>
             </div>
-
         </div>
     );
 }
