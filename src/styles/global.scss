@@ -7,8 +7,6 @@
 :root {
     --background-color: #1C0030;
     --text-color: #FFFF;
-    --card-color: linear-gradient(90deg, rgba(53,49,169,1) 0%, rgba(67,3,164,1) 100%);;
-    --free-button-color: linear-gradient(90deg, rgba(193,87,171,1) 0%, rgba(251,133,161,1) 100%);
 }
 
 
@@ -20,7 +18,7 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, p{
+h1, h2, h3, h4, h5, p, span{
     color: var(--text-color);
 }
 
