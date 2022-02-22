@@ -2,7 +2,9 @@
 
 The project for code free template in figma
 
-The figma template is here --> https://www.figma.com/community/file/1075027476640890753
+The figma template is <a href="https://www.figma.com/community/file/1075027476640890753" target="_blank">here</a>
+
+You can see the coded website <a href="https://nightpodcast-4yi9rf0dq-juliomchado.vercel.app/" target="_blank">here</a>
 
 ## Images
 
