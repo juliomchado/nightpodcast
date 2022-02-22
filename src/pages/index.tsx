@@ -40,16 +40,25 @@ function Home() {
                     </div>
                 </div>
             </section>
-            {/* <section className={styles.infos}>
-                <div className={styles.}>
-                    <h4>Hear what others say</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. uisque ullamcorper porttitor blandit. Praesent lorem magna, fring</p>
-                    <img src="" alt="" />
+            <section className={styles.infos}>
+                <div className={styles.info_hear_what}>
+                    <div>
+                        <h4>Hear what others say</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. uisque ullamcorper porttitor blandit. Praesent lorem magna, fring</p>
+                    </div>
+                    <img src="/images/hear.png" alt="Hear what others say" />
                 </div>
-                <div>
+                <div className={styles.info_listen_section}>
+                    <div>
+                        <h4>Listen on desktop or mobile</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. uisque ullamcorper porttitor blandit. Praesent lorem magna, fring</p>
+                    </div>
+                    <div>
+                        <img src="/images/mobiledesktop.png" alt="Listen on desktop or mobile" />
+                    </div>
 
                 </div>
-            </section> */}
+            </section>
         </>
     )
 
