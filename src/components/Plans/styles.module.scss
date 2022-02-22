@@ -22,11 +22,13 @@
         filter: brightness(0.8);
     }
 
-    div {
+    >div {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+
+
     }
 
     img {
